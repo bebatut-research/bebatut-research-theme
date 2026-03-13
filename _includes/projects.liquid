@@ -1,19 +1,24 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
+  <a href="{% if project.redirect %}{{ project.redirect }}{% elsif project.url contains '://' %}{{ project.url }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable project-card">
       {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
+        <div class="project-card-media">
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project.img
+            sizes = "250px"
+            alt="project thumbnail"
+            class="card-img-top project-card-img"
+          %}
+        </div>
       {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
+      <div class="card-body project-card-body">
+        <h2 class="card-title">{{ project.title | default: project.funder | default: 'Project' }}</h2>
+        <p class="card-text project-card-description">{{ project.description }}</p>
+        <div class="project-card-metadata">
+          {% include project_funding_metadata.liquid item=project variant='card' %}
+        </div>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">

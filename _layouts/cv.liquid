@@ -120,18 +120,29 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- RenderCV Sections - Merge Experience and Volunteer -->
-        {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
+        <!-- RenderCV Sections - Experience -->
         {% assign empty_array = '' | split: ',' %}
         {% assign exp = cv.sections.Experience | default: empty_array %}
-        {% assign vol = cv.sections.Volunteer | default: empty_array %}
-        {% assign combined_experience = exp | concat: vol %}
-        {% if combined_experience.size > 0 %}
+        {% if exp.size > 0 %}
           <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Experience</h3>
             <div>
-              {% assign entries = combined_experience %}
+              {% assign entries = exp %}
+              {% include cv/experience.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- RenderCV Sections - Volunteer -->
+        {% assign empty_array = '' | split: ',' %}
+        {% assign vol = cv.sections.Volunteer | default: empty_array %}
+        {% if vol.size > 0 %}
+          <a class="anchor" id="volunteer"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Volunteer</h3>
+            <div>
+              {% assign entries = vol %}
               {% include cv/experience.liquid %}
             </div>
           </div>
@@ -154,6 +165,16 @@ layout: default
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
+              {% elsif section_title == 'Supervision' %}
+                {% for supervision_pair in section_entries %}
+                  {% assign supervision_title = supervision_pair[0] %}
+                  {% assign supervision_entries = supervision_pair[1] %}
+                  <h4 class="card-text">{{ supervision_title }}</h4>
+                  <div>
+                    {% assign entries = supervision_entries %}
+                    {% include cv/supervision.liquid %}
+                  </div>
+                {% endfor %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
@@ -178,6 +199,21 @@ layout: default
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}
+              {% elsif section_title == 'Leadership' %}
+                {% assign entries = section_entries %}
+                {% include cv/roles.liquid %}
+              {% elsif section_title == 'Organisation of scientific events' %}
+                {% assign entries = section_entries %}
+                {% include cv/organisation_events.liquid %}
+              {% elsif section_title == 'Teaching' %}
+                {% assign entries = section_entries %}
+                {% include cv/teaching.liquid %}
+              {% elsif section_title == 'Scientific Recognition' %}
+                {% assign entries = section_entries %}
+                {% include cv/scientific_recognition.liquid %}
+              {% elsif section_title == 'Editorial and Evaluation Roles' %}
+                {% assign entries = section_entries %}
+                {% include cv/editorial_roles.liquid %}
               {% else %}
                 <!-- Generic section -->
                 {% for entry in section_entries %}
@@ -270,7 +306,9 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Experience</h3>
             <div>
-              {% assign entries = combined_experience %}
+              {% assign entries = work %}
+              {% include cv/experience.liquid %}
+              {% assign entries = vol %}
               {% include cv/experience.liquid %}
             </div>
           </div>

@@ -141,6 +141,33 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  .project-card-media {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 180px;
+    padding: 0.75rem 0.75rem 0;
+  }
+
+  .project-card-img {
+    height: 160px;
+    object-fit: contain;
+  }
+
+  .project-card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .project-card-description {
+    margin-bottom: 0.75rem;
+  }
+
+  .project-card-metadata {
+    margin-top: auto;
+  }
+
   .col {
     padding-bottom: 1rem;
   }

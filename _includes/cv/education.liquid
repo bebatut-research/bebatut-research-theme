@@ -10,19 +10,9 @@
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-          {% capture start_date %}
-            {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
-          {% endcapture %}
-          {% capture end_date %}
-            {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
-          {% endcapture %}
-
-          {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
-          {% else %}
+          {% capture date %}{% include cv/date_range.liquid start_date=entry.start_date startDate=entry.startDate end_date=entry.end_date endDate=entry.endDate format='year' %}{% endcapture %}
+          {% assign date = date | strip %}
+          {% if date == '' %}
             {% assign date = null %}
           {% endif %}
 

@@ -10,16 +10,24 @@ module ExternalPosts
     priority :high
 
     def generate(site)
-      if site.config['external_sources'] != nil
-        site.config['external_sources'].each do |src|
-          puts "Fetching external posts from #{src['name']}:"
-          if src['rss_url']
-            fetch_from_rss(site, src)
-          elsif src['posts']
-            fetch_from_urls(site, src)
-          end
+      load_external_sources(site).each do |src|
+        puts "Fetching external posts from #{src['name']}:"
+        if src['rss_url']
+          fetch_from_rss(site, src)
+        elsif src['posts']
+          fetch_from_urls(site, src)
         end
       end
+    end
+
+    def load_external_sources(site)
+      data_sources = site.data['external_sources']
+      return data_sources if data_sources.is_a?(Array) && !data_sources.empty?
+
+      config_sources = site.config['external_sources']
+      return config_sources if config_sources.is_a?(Array)
+
+      []
     end
 
     def fetch_from_rss(site, src)

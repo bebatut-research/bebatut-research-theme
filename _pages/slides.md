@@ -1,0 +1,11 @@
+---
+layout: slides
+permalink: /slides/
+event:
+  name: ISCB Education COSI
+  link: http://cosi.iscb.org/wiki/Education:Home
+  date: 2020-07-14
+talk:
+  title: "Empowering usable, and comprehensive bioinformatics training"
+  duration: 40min
+---
