@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "bebatut/al-folio",
+    "data-repo": "bebatut-research/bebatut-research-theme",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
