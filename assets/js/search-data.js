@@ -961,11 +961,51 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-biont",
+          title: 'BioNT',
+          description: "The Bio Network for Training",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/biont/";
             },},{id: "projects-elixir-fairymags",
           title: 'ELIXIR FAIRyMAGs',
           description: "Optimising Metagenomics Assembled Genomes building with workflow finalisation, training material development, real data evaluation and resource allocation tool creation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fairymags/";
+            },},{id: "projects-funding-czi-2022-2023",
+          title: 'Funding Czi 2022 2023',
+          description: "International foundation grant with OLS as beneficiary (Co-PI)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/funding-czi-2022-2023/";
+            },},{id: "projects-funding-eosc-life-training",
+          title: 'Funding Eosc Life Training',
+          description: "European grant with OLS as beneficiary (PI)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/funding-eosc-life-training/";
+            },},{id: "projects-beerdecoded",
+          title: 'BeerDEcoded',
+          description: "An immersion into biology, bioinformatics &amp; sciences via beer and their yeasts",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/funding-mozilla-2019-pi/";
+            },},{id: "projects-funding-mozilla-2019-wp-lead",
+          title: 'Funding Mozilla 2019 Wp Lead',
+          description: "International foundation grant with University of Freiburg as beneficiary",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/funding-mozilla-2019-wp-lead/";
+            },},{id: "projects-funding-university-of-freiburg-2021",
+          title: 'Funding University Of Freiburg 2021',
+          description: "Local grant with University of Freiburg as beneficiary (PI)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/funding-university-of-freiburg-2021/";
+            },},{id: "projects-gallantries",
+          title: 'Gallantries',
+          description: "When Galaxy meets Carpentries to develop Scalable, Modular, Eco-friendly, COVID-ready Bioinformatics Curricula",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallantries/";
+            },},{id: "projects-pathogfair",
+          title: 'PathoGFAIR',
+          description: "Accessible and scalable detection and identification of foodborne pathogens",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pathogfair/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
