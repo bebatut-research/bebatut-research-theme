@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Projects in which I am or was involved",
+          description: "(Funded) projects in which I am or was involved",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -961,6 +961,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-beerdecoded",
+          title: 'BeerDEcoded',
+          description: "An immersion into biology, bioinformatics &amp; sciences via beer and their yeasts",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/beerdecoded/";
             },},{id: "projects-biont",
           title: 'BioNT',
           description: "The Bio Network for Training",
@@ -971,36 +976,31 @@ ninja.data = [{
           description: "Optimising Metagenomics Assembled Genomes building with workflow finalisation, training material development, real data evaluation and resource allocation tool creation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fairymags/";
-            },},{id: "projects-funding-czi-2022-2023",
-          title: 'Funding Czi 2022 2023',
-          description: "International foundation grant with OLS as beneficiary (Co-PI)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/funding-czi-2022-2023/";
-            },},{id: "projects-funding-eosc-life-training",
-          title: 'Funding Eosc Life Training',
-          description: "European grant with OLS as beneficiary (PI)",
+            },},{id: "projects-open-life-science",
+          title: 'Open Life Science',
+          description: "FAIRify OLS and support EOSC-Life community members to build open science teams.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/funding-eosc-life-training/";
-            },},{id: "projects-beerdecoded",
-          title: 'BeerDEcoded',
-          description: "An immersion into biology, bioinformatics &amp; sciences via beer and their yeasts",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/funding-mozilla-2019-pi/";
-            },},{id: "projects-funding-mozilla-2019-wp-lead",
-          title: 'Funding Mozilla 2019 Wp Lead',
-          description: "International foundation grant with University of Freiburg as beneficiary",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/funding-mozilla-2019-wp-lead/";
-            },},{id: "projects-funding-university-of-freiburg-2021",
-          title: 'Funding University Of Freiburg 2021',
-          description: "Local grant with University of Freiburg as beneficiary (PI)",
+            },},{id: "projects-dnanalyzer",
+          title: 'DNAnalyzer',
+          description: "An online game for DNA data analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/funding-university-of-freiburg-2021/";
             },},{id: "projects-gallantries",
           title: 'Gallantries',
           description: "When Galaxy meets Carpentries to develop Scalable, Modular, Eco-friendly, COVID-ready Bioinformatics Curricula",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/gallantries/";
+              window.location.href = "/projects/gallantries_erasmus+/";
+            },},{id: "projects-gallantries",
+          title: 'Gallantries',
+          description: "When Galaxy meets Carpentries for hybrid training",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallantries_mozilla/";
+            },},{id: "projects-open-life-science",
+          title: 'Open Life Science',
+          description: "Support for OLS in their education and capacity building efforts through trainings, developing curricula, and maturing their governance structure.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ols_czi/";
             },},{id: "projects-pathogfair",
           title: 'PathoGFAIR',
           description: "Accessible and scalable detection and identification of foodborne pathogens",
