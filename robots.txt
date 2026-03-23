@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://research.bebatut.fr/sitemap.xml
+Sitemap: https://bebatut-research.github.io/sitemap.xml

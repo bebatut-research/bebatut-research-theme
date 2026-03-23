@@ -4,27 +4,27 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
-          title: "publications",
-          description: "An up-to-date list is available on HAL.",
+          title: "Publications",
+          description: "I practice open science to ensure my research is accessible, transparent, and reusable. My work is published in **open-access journals** to maximize reach and impact. Preprints are systematically shared on **[bioRxiv](https://www.biorxiv.org/)** and **[BioHackrXiv](https://biohackrxiv.org/)** to enable early access and recognize all contributors.All publications are archived on **[HAL](https://hal.science/)** and linked to my **[ORCID profile](https://orcid.org/)**. Research data are annotated and deposited in public databases, while code, workflows, and training materials are released under open licenses on **[GitHub](https://github.com/)** or **[GitLab](https://gitlab.com/)**. Software versions are archived on **[Zenodo](https://zenodo.org/)** (with DOIs) and registered on **[bio.tools](https://bio.tools/)**. Protocols are published on **[Protocols.io](https://www.protocols.io/)** and workflows on **[WorkflowHub](https://workflowhub.eu/)**.To ensure quality and credit, software is submitted to peer-reviewed journals like the **[Journal of Open Source Software (JOSS)](https://joss.theoj.org/)**. Conference presentations and posters are openly shared, often on **[F1000Research](https://f1000research.com/)** with DOIs.For a complete list of my publications, visit my **[HAL profile](https://hal.science/)**.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "(Funded) projects in which I am or was involved",
           section: "Navigation",
           handler: () => {
@@ -136,7 +136,7 @@ ninja.data = [{
                 window.location.href = "https://talks.bebatut.fr/2013";
               },
             },{id: "nav-posters",
-          title: "posters",
+          title: "Posters",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -956,12 +956,7 @@ ninja.data = [{
             window.open("https://bioinfo-fr.net/automatiser-le-parcours-et-la-manipulation-darbres-phylogenetiques-avec-le-module-bio-phylo-de-biopython", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-beerdecoded",
+      },{id: "projects-beerdecoded",
           title: 'BeerDEcoded',
           description: "An immersion into biology, bioinformatics &amp; sciences via beer and their yeasts",
           section: "Projects",handler: () => {
@@ -1006,16 +1001,6 @@ ninja.data = [{
           description: "Accessible and scalable detection and identification of foodborne pathogens",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pathogfair/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',
