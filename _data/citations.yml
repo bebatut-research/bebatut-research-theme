@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-01'
 papers:
   q5GpTJYAAAAJ:-_dYPAW6P2MC:
     citations: 6
@@ -18,7 +18,7 @@ papers:
     title: 'microGalaxy: A gateway to tools, workflows, and training for reproducible and FAIR analysis of microbial data'
     year: '2024'
   q5GpTJYAAAAJ:4DMP91E08xMC:
-    citations: 1732
+    citations: 1736
     title: 'Bioconda: sustainable and comprehensive software distribution for the life sciences'
     year: '2018'
   q5GpTJYAAAAJ:5nxA0vEk-isC:
@@ -42,7 +42,7 @@ papers:
     title: How to improve the annotation of Galaxy resources? Outcomes of an online hackathon for improving the annotation of Galaxy resources for microbial data resources
     year: '2024'
   q5GpTJYAAAAJ:IjCSPb-OGe4C:
-    citations: 151
+    citations: 152
     title: Four simple recommendations to encourage best practices in research software
     year: '2017'
   q5GpTJYAAAAJ:JQOojiI6XY0C:
@@ -86,7 +86,7 @@ papers:
     title: 'The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy'
     year: '2017'
   q5GpTJYAAAAJ:UeHWp8X0CEIC:
-    citations: 252
+    citations: 253
     title: Community-driven data analysis training for biology
     year: '2018'
   q5GpTJYAAAAJ:UebtZRa9Y70C:
@@ -94,7 +94,7 @@ papers:
     title: 'The RNA workbench 2.0: next generation RNA data analysis'
     year: '2019'
   q5GpTJYAAAAJ:VLnqNzywnoUC:
-    citations: 629
+    citations: 628
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update'
     year: '2022'
   q5GpTJYAAAAJ:W7OEmFMy1HYC:
@@ -134,7 +134,7 @@ papers:
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
     year: '2018'
   q5GpTJYAAAAJ:j8SEvjWlNXcC:
-    citations: 574
+    citations: 572
     title: 'The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update'
     year: '2024'
   q5GpTJYAAAAJ:lSLTfruPkqcC:
@@ -158,7 +158,7 @@ papers:
     title: 'In silico experimental evolution: a tool to test evolutionary scenarios'
     year: '2013'
   q5GpTJYAAAAJ:uJ-U7cs_P_0C:
-    citations: 4694
+    citations: 4700
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
     year: '2018'
   q5GpTJYAAAAJ:ufrVoPGSRksC:
