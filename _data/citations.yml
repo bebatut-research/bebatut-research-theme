@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-08'
 papers:
   q5GpTJYAAAAJ:-_dYPAW6P2MC:
     citations: 6
@@ -18,7 +18,7 @@ papers:
     title: 'microGalaxy: A gateway to tools, workflows, and training for reproducible and FAIR analysis of microbial data'
     year: '2024'
   q5GpTJYAAAAJ:4DMP91E08xMC:
-    citations: 1739
+    citations: 1740
     title: 'Bioconda: sustainable and comprehensive software distribution for the life sciences'
     year: '2018'
   q5GpTJYAAAAJ:5nxA0vEk-isC:
@@ -30,7 +30,7 @@ papers:
     title: Establishing the ELIXIR Microbiome Community
     year: '2024'
   q5GpTJYAAAAJ:9ZlFYXVOiuMC:
-    citations: 236
+    citations: 237
     title: Gut microbiota drives age-related oxidative stress and mitochondrial damage in microglia via the metabolite N6-carboxymethyllysine
     year: '2022'
   q5GpTJYAAAAJ:9yKSN-GCB0IC:
@@ -86,7 +86,7 @@ papers:
     title: 'The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy'
     year: '2017'
   q5GpTJYAAAAJ:UeHWp8X0CEIC:
-    citations: 253
+    citations: 255
     title: Community-driven data analysis training for biology
     year: '2018'
   q5GpTJYAAAAJ:UebtZRa9Y70C:
@@ -122,7 +122,7 @@ papers:
     title: 'PathoGFAIR: a collection of FAIR and adaptable (meta) genomics workflows for (foodborne) pathogens detection and tracking'
     year: '2024'
   q5GpTJYAAAAJ:hC7cP41nSMkC:
-    citations: 133
+    citations: 135
     title: 'Galaxy Training: A powerful framework for teaching!'
     year: '2023'
   q5GpTJYAAAAJ:hMod-77fHWUC:
@@ -134,7 +134,7 @@ papers:
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
     year: '2018'
   q5GpTJYAAAAJ:j8SEvjWlNXcC:
-    citations: 580
+    citations: 582
     title: 'The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update'
     year: '2024'
   q5GpTJYAAAAJ:lSLTfruPkqcC:
@@ -158,7 +158,7 @@ papers:
     title: 'In silico experimental evolution: a tool to test evolutionary scenarios'
     year: '2013'
   q5GpTJYAAAAJ:uJ-U7cs_P_0C:
-    citations: 4718
+    citations: 4720
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
     year: '2018'
   q5GpTJYAAAAJ:ufrVoPGSRksC:
