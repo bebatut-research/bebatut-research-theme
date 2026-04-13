@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-13'
 papers:
   q5GpTJYAAAAJ:-_dYPAW6P2MC:
     citations: 6
     title: 'ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota'
     year: '2017'
   q5GpTJYAAAAJ:0EnyYjriUFMC:
-    citations: 59
+    citations: 60
     title: Ten simple rules for making training materials FAIR
     year: '2020'
   q5GpTJYAAAAJ:2osOgNQ5qMEC:
@@ -18,7 +18,7 @@ papers:
     title: 'microGalaxy: A gateway to tools, workflows, and training for reproducible and FAIR analysis of microbial data'
     year: '2024'
   q5GpTJYAAAAJ:4DMP91E08xMC:
-    citations: 1740
+    citations: 1741
     title: 'Bioconda: sustainable and comprehensive software distribution for the life sciences'
     year: '2018'
   q5GpTJYAAAAJ:5nxA0vEk-isC:
@@ -30,7 +30,7 @@ papers:
     title: Establishing the ELIXIR Microbiome Community
     year: '2024'
   q5GpTJYAAAAJ:9ZlFYXVOiuMC:
-    citations: 237
+    citations: 238
     title: Gut microbiota drives age-related oxidative stress and mitochondrial damage in microglia via the metabolite N6-carboxymethyllysine
     year: '2022'
   q5GpTJYAAAAJ:9yKSN-GCB0IC:
@@ -62,7 +62,7 @@ papers:
     title: The de. NBI/ELIXIR-DE training platform-Bioinformatics training in Germany and across Europe within ELIXIR
     year: '2020'
   q5GpTJYAAAAJ:NMxIlDl6LWMC:
-    citations: 15
+    citations: 16
     title: The Planemo toolkit for developing, deploying, and executing scientific data analyses in Galaxy and beyond
     year: '2023'
   q5GpTJYAAAAJ:O3NaXMp0MMsC:
@@ -86,7 +86,7 @@ papers:
     title: 'The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy'
     year: '2017'
   q5GpTJYAAAAJ:UeHWp8X0CEIC:
-    citations: 255
+    citations: 256
     title: Community-driven data analysis training for biology
     year: '2018'
   q5GpTJYAAAAJ:UebtZRa9Y70C:
@@ -94,7 +94,7 @@ papers:
     title: 'The RNA workbench 2.0: next generation RNA data analysis'
     year: '2019'
   q5GpTJYAAAAJ:VLnqNzywnoUC:
-    citations: 629
+    citations: 630
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update'
     year: '2022'
   q5GpTJYAAAAJ:W7OEmFMy1HYC:
@@ -122,7 +122,7 @@ papers:
     title: 'PathoGFAIR: a collection of FAIR and adaptable (meta) genomics workflows for (foodborne) pathogens detection and tracking'
     year: '2024'
   q5GpTJYAAAAJ:hC7cP41nSMkC:
-    citations: 135
+    citations: 136
     title: 'Galaxy Training: A powerful framework for teaching!'
     year: '2023'
   q5GpTJYAAAAJ:hMod-77fHWUC:
@@ -134,7 +134,7 @@ papers:
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
     year: '2018'
   q5GpTJYAAAAJ:j8SEvjWlNXcC:
-    citations: 582
+    citations: 585
     title: 'The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update'
     year: '2024'
   q5GpTJYAAAAJ:lSLTfruPkqcC:
@@ -142,7 +142,7 @@ papers:
     title: An international consensus on effective, inclusive, and career-spanning short-format training in the life sciences and beyond
     year: '2023'
   q5GpTJYAAAAJ:qjMakFHDy7sC:
-    citations: 79
+    citations: 80
     title: Environmental Pollutant Benzo[a]Pyrene Impacts the Volatile Metabolome and Transcriptome of the Human Gut Microbiota
     year: '2017'
   q5GpTJYAAAAJ:roLk4NBRz8UC:
@@ -150,7 +150,7 @@ papers:
     title: 'ASaiM-MT: a validated and optimized ASaiM workflow for metatranscriptomics analysis within Galaxy framework'
     year: '2021'
   q5GpTJYAAAAJ:u-x6o8ySG0sC:
-    citations: 197
+    citations: 198
     title: Reductive genome evolution at both ends of the bacterial population size spectrum
     year: '2014'
   q5GpTJYAAAAJ:u5HHmVD_uO8C:
@@ -158,7 +158,7 @@ papers:
     title: 'In silico experimental evolution: a tool to test evolutionary scenarios'
     year: '2013'
   q5GpTJYAAAAJ:uJ-U7cs_P_0C:
-    citations: 4720
+    citations: 4728
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
     year: '2018'
   q5GpTJYAAAAJ:ufrVoPGSRksC:
