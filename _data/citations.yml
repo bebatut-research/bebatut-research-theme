@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-05-20'
 papers:
   q5GpTJYAAAAJ:-_dYPAW6P2MC:
     citations: 6
     title: 'ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota'
     year: '2017'
   q5GpTJYAAAAJ:0EnyYjriUFMC:
-    citations: 60
+    citations: 61
     title: Ten simple rules for making training materials FAIR
     year: '2020'
   q5GpTJYAAAAJ:2osOgNQ5qMEC:
@@ -14,11 +14,11 @@ papers:
     title: 'ENASearch: A Python library for interacting with ENA''s API'
     year: '2017'
   q5GpTJYAAAAJ:35r97b3x0nAC:
-    citations: 1
+    citations: 2
     title: 'microGalaxy: A gateway to tools, workflows, and training for reproducible and FAIR analysis of microbial data'
     year: '2024'
   q5GpTJYAAAAJ:4DMP91E08xMC:
-    citations: 1741
+    citations: 1772
     title: 'Bioconda: sustainable and comprehensive software distribution for the life sciences'
     year: '2018'
   q5GpTJYAAAAJ:5nxA0vEk-isC:
@@ -30,7 +30,7 @@ papers:
     title: Establishing the ELIXIR Microbiome Community
     year: '2024'
   q5GpTJYAAAAJ:9ZlFYXVOiuMC:
-    citations: 238
+    citations: 243
     title: Gut microbiota drives age-related oxidative stress and mitochondrial damage in microglia via the metabolite N6-carboxymethyllysine
     year: '2022'
   q5GpTJYAAAAJ:9yKSN-GCB0IC:
@@ -42,7 +42,7 @@ papers:
     title: How to improve the annotation of Galaxy resources? Outcomes of an online hackathon for improving the annotation of Galaxy resources for microbial data resources
     year: '2024'
   q5GpTJYAAAAJ:IjCSPb-OGe4C:
-    citations: 152
+    citations: 154
     title: Four simple recommendations to encourage best practices in research software
     year: '2017'
   q5GpTJYAAAAJ:JQOojiI6XY0C:
@@ -66,7 +66,7 @@ papers:
     title: The Planemo toolkit for developing, deploying, and executing scientific data analyses in Galaxy and beyond
     year: '2023'
   q5GpTJYAAAAJ:O3NaXMp0MMsC:
-    citations: 20
+    citations: 22
     title: Integrative meta-omics in Galaxy and beyond
     year: '2023'
   q5GpTJYAAAAJ:QIV2ME_5wuYC:
@@ -78,23 +78,23 @@ papers:
     title: 'Exploring the landscape of the genomic wastewater surveillance ecosystem: a roadmap towards standardization'
     year: '2023'
   q5GpTJYAAAAJ:Se3iqnhoufwC:
-    citations: 22
+    citations: 23
     title: Fostering accessible online education using Galaxy as an e-learning platform
     year: '2021'
   q5GpTJYAAAAJ:Tyk-4Ss8FVUC:
-    citations: 54
+    citations: 56
     title: 'The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy'
     year: '2017'
   q5GpTJYAAAAJ:UeHWp8X0CEIC:
-    citations: 256
+    citations: 260
     title: Community-driven data analysis training for biology
     year: '2018'
   q5GpTJYAAAAJ:UebtZRa9Y70C:
-    citations: 17
+    citations: 18
     title: 'The RNA workbench 2.0: next generation RNA data analysis'
     year: '2019'
   q5GpTJYAAAAJ:VLnqNzywnoUC:
-    citations: 630
+    citations: 642
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update'
     year: '2022'
   q5GpTJYAAAAJ:W7OEmFMy1HYC:
@@ -110,19 +110,19 @@ papers:
     title: 'Genome evolution: mutation is the main driver of genome size in prokaryotes'
     year: '2020'
   q5GpTJYAAAAJ:_FxGoFyzp5QC:
-    citations: 92
+    citations: 94
     title: RNA-seq data analysis in galaxy
     year: '2021'
   q5GpTJYAAAAJ:dfsIfKJdRG4C:
-    citations: 3
+    citations: 4
     title: How to increase the findability, visibility, and impact of Galaxy tools for your scientific community
     year: '2024'
   q5GpTJYAAAAJ:eMMeJKvmdy0C:
-    citations: 3
+    citations: 4
     title: 'PathoGFAIR: a collection of FAIR and adaptable (meta) genomics workflows for (foodborne) pathogens detection and tracking'
     year: '2024'
   q5GpTJYAAAAJ:hC7cP41nSMkC:
-    citations: 136
+    citations: 142
     title: 'Galaxy Training: A powerful framework for teaching!'
     year: '2023'
   q5GpTJYAAAAJ:hMod-77fHWUC:
@@ -134,11 +134,11 @@ papers:
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
     year: '2018'
   q5GpTJYAAAAJ:j8SEvjWlNXcC:
-    citations: 585
+    citations: 646
     title: 'The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update'
     year: '2024'
   q5GpTJYAAAAJ:lSLTfruPkqcC:
-    citations: 11
+    citations: 12
     title: An international consensus on effective, inclusive, and career-spanning short-format training in the life sciences and beyond
     year: '2023'
   q5GpTJYAAAAJ:qjMakFHDy7sC:
@@ -146,23 +146,23 @@ papers:
     title: Environmental Pollutant Benzo[a]Pyrene Impacts the Volatile Metabolome and Transcriptome of the Human Gut Microbiota
     year: '2017'
   q5GpTJYAAAAJ:roLk4NBRz8UC:
-    citations: 13
+    citations: 14
     title: 'ASaiM-MT: a validated and optimized ASaiM workflow for metatranscriptomics analysis within Galaxy framework'
     year: '2021'
   q5GpTJYAAAAJ:u-x6o8ySG0sC:
-    citations: 198
+    citations: 199
     title: Reductive genome evolution at both ends of the bacterial population size spectrum
     year: '2014'
   q5GpTJYAAAAJ:u5HHmVD_uO8C:
-    citations: 81
+    citations: 82
     title: 'In silico experimental evolution: a tool to test evolutionary scenarios'
     year: '2013'
   q5GpTJYAAAAJ:uJ-U7cs_P_0C:
-    citations: 4728
+    citations: 4788
     title: 'The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update'
     year: '2018'
   q5GpTJYAAAAJ:ufrVoPGSRksC:
-    citations: 35
+    citations: 36
     title: A single-cell RNA-sequencing training and analysis suite using the Galaxy framework
     year: '2020'
   q5GpTJYAAAAJ:vV6vV6tmYwMC:
